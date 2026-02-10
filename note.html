@@ -1,0 +1,307 @@
+%-------------------------
+% Resume in Latex
+% Author : Chitranshu Yadav
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+
+\documentclass[letterpaper,11pt]{article}
+
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{graphicx}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+\RequirePackage{tikz}
+\RequirePackage{xcolor}
+\RequirePackage{fontawesome}
+\usepackage{tikz}
+\usetikzlibrary{svg.path}
+
+
+
+
+\definecolor{cvblue}{HTML}{0E5484}
+\definecolor{black}{HTML}{130810}
+\definecolor{darkcolor}{HTML}{0F4539}
+\definecolor{cvgreen}{HTML}{3BD80D}
+\definecolor{taggreen}{HTML}{00E278}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{name}{black}
+\colorlet{tagline}{darkcolor}
+\colorlet{heading}{darkcolor}
+\colorlet{headingrule}{cvblue}
+\colorlet{accent}{darkcolor}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+
+
+
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+
+
+% \pagestyle{fancy}
+% \fancyhf{}  % clear all header and footer fields
+% \fancyfoot{}
+% \renewcommand{\headrulewidth}{0pt}
+% \renewcommand{\footrulewidth}{0pt}
+
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+
+\urlstyle{same}
+
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{\large#1} & \textbf{\small #2} \\
+      \textit{\large#3} & \textit{\small #4} \\
+     
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+
+
+\newcommand\sbullet[1][.5]{\mathbin{\vcenter{\hbox{\scalebox{#1}{$\bullet$}}}}}
+
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+\begin{document}
+
+
+%----------HEADING----------
+
+
+
+
+\begin{center}
+    {\Huge \scshape Chitranshu Yadav} \\ \vspace{1pt}
+    Bhopal, Madhya Pradesh \\ \vspace{1pt}
+    \small \href{tel:+91 9340677856}{ \raisebox{-0.1\height}\faPhone\ {+91 9340677856} ~} \href{mailto:chitranshu2411@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{chitranshu2411@gmail.com}} ~
+    \href{https://linkedin.com/in/chitranshu-yadav}{\raisebox{-0.2\height}\faLinkedinSquare\ \underline{linkedin.com/in/chitranshu-yadav}}  ~
+    \href{https://github.com/Chitranshu2411}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/Chitranshu2411}} ~
+    \vspace{-8pt}
+\end{center}
+
+
+%-----------SUMMARY-----------
+\section{Summary}
+Pre-final year Computer Science student experienced in building scalable, responsive web interfaces using React.js, JavaScript, and modern UI frameworks. Strong problem-solving mindset with a focus on performance, accessibility, and clean UI architecture. Seeking frontend developer internship or SDE opportunities.
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Bansal Institute of Science And Technology}{August 2023 -- June 2027}
+      {Bachelor of Technology in Computer Science \textbf{(CGPA: 6.60)}}{Bhopal, MP}
+
+    \resumeSubheading
+      {Board of Secondary Education, Madhya Pradesh}{2021 -- 2022}
+      {Higher Secondary (Class XII) \textbf{(Percentage: 70\%)}}{Madhya Pradesh}
+
+    \resumeSubheading
+      {Board of Secondary Education, Madhya Pradesh}{2019 -- 2020}
+      {High School (Class X) \textbf{(Percentage: 94\%)}}{Madhya Pradesh}
+
+  \resumeSubHeadingListEnd
+
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+       \resumeProjectHeading
+         {\textbf{\large{{Dr. Jivika - AI Healthcare Assistant}}} $|$ \emph{React.Js ,Mysql ,TailwindCSS} $|$ \href{https://dr-jivika-healthcare.netlify.app/}{\textbf{(Live)}} $|$ \href{https://github.com/Chitranshu2411/Dr.-Jivika-}{\textbf{(GitHub)}}}{Nov 2025}
+          \resumeItemListStart
+            \resumeItem{\normalsize{{Developed an \textbf{AI-powered healthcare web application} for \textbf{online doctor consultation and appointment booking}.}}
+            \resumeItem{\normalsize{Implemented \textbf{online medicine ordering system} connected to \textbf{nearest medical stores}.}}
+            \resumeItem{\normalsize{Integrated an \textbf{AI healthcare chatbot} for user guidance and symptom assistance.}}
+            \resumeItem{\normalsize{Designed a \textbf{responsive, performance-optimized UI} for managing \textbf{appointments and medical services}.}}
+            
+            
+            }}}
+          \resumeItemListEnd
+          \vspace{-13pt}
+         
+      \resumeProjectHeading
+          {\textbf{\large{{Fakhri It Services - Freelance Work}}} $|$ \emph{React.js, MongoDB, TailwindCSS} $|$ \href{https://fakhri-it-services.vercel.app/}{\textbf{(Live)}} $|$ \href{https://github.com/Chitranshu2411/Fakhri-It-Services}{\textbf{(GitHub)}}}{Dec 2025}
+          \resumeItemListStart
+            \resumeItem{\normalsize{{Built a \textbf{React.js-based freelance web application} with \textbf{database integration} for dynamic, scalable Amazon seller growth services.}}
+            \resumeItem{\normalsize{{Designed a \textbf{responsive, SEO-optimized, and high-performance UI}, to improve user engagement and credibility.}}
+            \resumeItem{\normalsize{{Achieved \textbf{300+ monthly website traffic}, significantly enhancing the client’s online reach and business visibility.}}
+            \resumeItem{\normalsize{\textbf{Deployed and maintained} the production-ready application on \textbf{Vercel}, handling \textbf{client requirements, development, and deployment} end-to-end.}}
+            
+            }}}
+          \resumeItemListEnd
+           
+         
+        
+         
+    \resumeSubHeadingListEnd
+\vspace{-5pt}
+
+
+
+
+%
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{\normalsize{Programming Languages:}}{ \normalsize{Java,JavaScript,Sql}} \\
+     \textbf{\normalsize{Frameworks and Libraries:}}{ \normalsize{React.js,Spring Boot, Spring MVC, Spring Data JPA, Redux Toolkit, Tailwind}} \\
+     \textbf{\normalsize{Developer Tools:}}{ \normalsize{Maven, Postman, Figma, Git, Github, VS Code, Intellij Idea, MySql, Swagger, Docker}} \\
+    }}
+ \end{itemize}
+ \vspace{-15pt}
+
+
+
+
+ 
+ %-----------CERTIFICATIONS---------------
+\section{Certifications}
+
+
+$\sbullet[.75] \hspace{0.1cm}$ {\href{certificateLink.com}{Responsive Web Design - [FreeCodeCamp]}} \hspace{1.6cm}
+
+$\sbullet[.75] \hspace{0.1cm}$ {\href{certificateLink.com}{Java Full Stack Development Certification — Brainovision Solutions India Pvt. Ltd.}} \hspace{1.6cm}
+
+$\sbullet[.75] \hspace{0.1cm}$ {\href{certificateLink.com}{Generative AI Fundamentals - Google Cloud}} \hspace{1.6cm}
+
+
+%-----------ACHIEVEMENTS---------------
+
+ \section{Achievements}
+%   {$\sbullet[.75] \hspace{0.2cm}$ Solved \textbf{250+ problems} with a maximum \textbf{contest rating of 1453} on \href{https://leetcode.com/u/chitranshu-yadav/}{\textbf{(LeetCode)}} \\
+  
+  {$\sbullet[.75] \hspace{0.2cm}$ Maintained a \textbf{100+ day coding streak} on \textbf{LeetCode,} demonstrating consistency and commitment to problem-solving. \\
+
+  {$\sbullet[.75] \hspace{0.2cm}$ Secured \textbf{2nd Rank} in the internal \textbf{Smart India Hackathon (SIH) 2024} at the college level.} \\
+
+  {$\sbullet[.75] \hspace{0.2cm}$ Selected as a Member of \textbf{IIT Bombay Techfest (Indigo) 2025}.} \\
+
+ 
+
+  {$\sbullet[.75] \hspace{0.2cm}$ Executed \textbf{freelance} frontend projects leveraging \textbf{React.js}, \textbf{CSS frameworks}, and modern \textbf{UI practices} to build scalable, user-centric \textbf{web interfaces} aligned with \textbf{client} requirements.  \\
+
+  {$\sbullet[.75] \hspace{0.2cm}$ Achieved Institute Rank \textbf{150} on GeeksforGeeks.} \\
+
+ {$\sbullet[.75] \hspace{0.2cm}$ Secured \textbf{5th Rank} in the internal \textbf{Smart India Hackathon (SIH) 2025} at the college level.} \\
+
+
+
+ 
+  
+
+
+\end{document}
